@@ -54,7 +54,7 @@ def main():
         p = input()
         if p == "\\n":
             break
-        paste += p
+        paste += p + "\n"
 
 
     paste_name = input("Name of paste []: ")
